@@ -1,0 +1,3 @@
+pages\Actions\HomePageActions.class
+utils\SeleniumDriver.class
+pages\Locators\HomePageLocators.class
