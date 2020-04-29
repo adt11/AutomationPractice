@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 145000000,
+              "duration": 172000000,
               "status": "passed"
             },
             "line": 5,
@@ -30,11 +30,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-04-28T17:25:32.480Z",
+        "start_timestamp": "2020-04-29T10:09:25.929Z",
         "before": [
           {
             "result": {
-              "duration": 10647000000,
+              "duration": 11004000000,
               "status": "passed"
             },
             "match": {
@@ -49,7 +49,7 @@
         "after": [
           {
             "result": {
-              "duration": 712000000,
+              "duration": 697000000,
               "status": "passed"
             },
             "match": {
@@ -62,7 +62,7 @@
         "steps": [
           {
             "result": {
-              "duration": 11646000000,
+              "duration": 6972000000,
               "status": "passed"
             },
             "line": 9,
@@ -74,7 +74,7 @@
           },
           {
             "result": {
-              "duration": 1901000000,
+              "duration": 1488000000,
               "status": "passed"
             },
             "line": 10,
@@ -96,6 +96,9 @@
             "name": "@Smoke"
           },
           {
+            "name": "@Home"
+          },
+          {
             "name": "@Contact-Us"
           }
         ]
@@ -109,7 +112,7 @@
         "steps": [
           {
             "result": {
-              "duration": 9000000,
+              "duration": 13000000,
               "status": "passed"
             },
             "line": 5,
@@ -128,11 +131,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-04-28T17:25:57.697Z",
+        "start_timestamp": "2020-04-29T10:09:46.417Z",
         "before": [
           {
             "result": {
-              "duration": 9533000000,
+              "duration": 9691000000,
               "status": "passed"
             },
             "match": {
@@ -147,7 +150,7 @@
         "after": [
           {
             "result": {
-              "duration": 689000000,
+              "duration": 727000000,
               "status": "passed"
             },
             "match": {
@@ -160,7 +163,7 @@
         "steps": [
           {
             "result": {
-              "duration": 11700000000,
+              "duration": 6518000000,
               "status": "passed"
             },
             "line": 14,
@@ -172,7 +175,7 @@
           },
           {
             "result": {
-              "duration": 2788000000,
+              "duration": 2049000000,
               "status": "passed"
             },
             "line": 15,
@@ -194,7 +197,572 @@
             "name": "@Smoke"
           },
           {
+            "name": "@Home"
+          },
+          {
             "name": "@Login-MyStore"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Navigation to the Home Page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I open the URL \"http://automationpractice.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://automationpractice.com/\"",
+                  "offset": 15
+                }
+              ],
+              "location": "steps.HomePageSteps.i_open_the_URL(java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-04-29T10:10:05.490Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9546000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.BeforeActions.setUp()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "I validate Submenu of Women Menu functionality",
+        "description": "",
+        "id": "navigation-to-the-home-page;i-validate-submenu-of-women-menu-functionality",
+        "after": [
+          {
+            "result": {
+              "duration": 733000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.EndActions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5978000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I move to the Women Menu",
+            "match": {
+              "location": "steps.HomePageSteps.i_move_to_the_Women_Menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 154000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I click on Tops Link",
+            "match": {
+              "location": "steps.HomePageSteps.i_click_on_Tops_Link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1329000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I should see the title of the page \"Tops - My Store\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Tops - My Store\"",
+                  "offset": 35
+                }
+              ],
+              "location": "steps.HomePageSteps.i_should_see_the_title_of_the_page(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1060000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I move to the Women Menu",
+            "match": {
+              "location": "steps.HomePageSteps.i_move_to_the_Women_Menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 115000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I click on Dresses Link",
+            "match": {
+              "location": "steps.HomePageSteps.i_click_on_Dresses_Link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1426000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I should see the title of the page \"Dresses - My Store\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Dresses - My Store\"",
+                  "offset": 35
+                }
+              ],
+              "location": "steps.HomePageSteps.i_should_see_the_title_of_the_page(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 716000000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I move to the Women Menu",
+            "match": {
+              "location": "steps.HomePageSteps.i_move_to_the_Women_Menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 261000000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I click on TShirts Link",
+            "match": {
+              "location": "steps.HomePageSteps.i_click_on_TShirts_Link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1344000000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I should see the title of the page \"T-shirts - My Store\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"T-shirts - My Store\"",
+                  "offset": 35
+                }
+              ],
+              "location": "steps.HomePageSteps.i_should_see_the_title_of_the_page(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 509000000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I move to the Women Menu",
+            "match": {
+              "location": "steps.HomePageSteps.i_move_to_the_Women_Menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 214000000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I click on Blouses Link",
+            "match": {
+              "location": "steps.HomePageSteps.i_click_on_Blouses_Link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1291000000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I should see the title of the page \"Blouses - My Store\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Blouses - My Store\"",
+                  "offset": 35
+                }
+              ],
+              "location": "steps.HomePageSteps.i_should_see_the_title_of_the_page(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 451000000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I move to the Women Menu",
+            "match": {
+              "location": "steps.HomePageSteps.i_move_to_the_Women_Menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 444000000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I click on Casual Dresses Link",
+            "match": {
+              "location": "steps.HomePageSteps.i_click_on_Casual_Dresses_Link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1503000000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I should see the title of the page \"Casual Dresses - My Store\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Casual Dresses - My Store\"",
+                  "offset": 35
+                }
+              ],
+              "location": "steps.HomePageSteps.i_should_see_the_title_of_the_page(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 517000000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I move to the Women Menu",
+            "match": {
+              "location": "steps.HomePageSteps.i_move_to_the_Women_Menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 298000000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I click on Evening Dresses Link",
+            "match": {
+              "location": "steps.HomePageSteps.i_click_on_Evening_Dresses_Link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1431000000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I should see the title of the page \"Evening Dresses - My Store\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Evening Dresses - My Store\"",
+                  "offset": 35
+                }
+              ],
+              "location": "steps.HomePageSteps.i_should_see_the_title_of_the_page(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 659000000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I move to the Women Menu",
+            "match": {
+              "location": "steps.HomePageSteps.i_move_to_the_Women_Menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 229000000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "I click on Summer Dresses Link",
+            "match": {
+              "location": "steps.HomePageSteps.i_click_on_Summer_Dresses_Link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1585000000,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "I should see the title of the page \"Summer Dresses - My Store\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Summer Dresses - My Store\"",
+                  "offset": 35
+                }
+              ],
+              "location": "steps.HomePageSteps.i_should_see_the_title_of_the_page(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          },
+          {
+            "name": "@Home"
+          },
+          {
+            "name": "@Women-Menu"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Navigation to the Home Page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 10000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I open the URL \"http://automationpractice.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://automationpractice.com/\"",
+                  "offset": 15
+                }
+              ],
+              "location": "steps.HomePageSteps.i_open_the_URL(java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-04-29T10:10:37.346Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9651000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.BeforeActions.setUp()"
+            }
+          }
+        ],
+        "line": 42,
+        "name": "I validate Submenu of Dresses Menu functionality",
+        "description": "",
+        "id": "navigation-to-the-home-page;i-validate-submenu-of-dresses-menu-functionality",
+        "after": [
+          {
+            "result": {
+              "duration": 848000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.EndActions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5290000000,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "I move to the Dresses Menu",
+            "match": {
+              "location": "steps.HomePageSteps.i_move_to_the_Dresses_Menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 140000000,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "I click on Casual Dresses submenu",
+            "match": {
+              "location": "steps.HomePageSteps.i_click_on_Casual_Dresses_submenu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1589000000,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "I should see the title of the page \"Casual Dresses - My Store\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Casual Dresses - My Store\"",
+                  "offset": 35
+                }
+              ],
+              "location": "steps.HomePageSteps.i_should_see_the_title_of_the_page(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1011000000,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "I move to the Dresses Menu",
+            "match": {
+              "location": "steps.HomePageSteps.i_move_to_the_Dresses_Menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 99000000,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "I click on Evening Dresses submenu",
+            "match": {
+              "location": "steps.HomePageSteps.i_click_on_Evening_Dresses_submenu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1249000000,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "I should see the title of the page \"Evening Dresses - My Store\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Evening Dresses - My Store\"",
+                  "offset": 35
+                }
+              ],
+              "location": "steps.HomePageSteps.i_should_see_the_title_of_the_page(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 564000000,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "I move to the Dresses Menu",
+            "match": {
+              "location": "steps.HomePageSteps.i_move_to_the_Dresses_Menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 132000000,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "I click on Summer Dresses submenu",
+            "match": {
+              "location": "steps.HomePageSteps.i_click_on_Summer_Dresses_submenu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1270000000,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "I should see the title of the page \"Summer Dresses - My Store\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Summer Dresses - My Store\"",
+                  "offset": 35
+                }
+              ],
+              "location": "steps.HomePageSteps.i_should_see_the_title_of_the_page(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          },
+          {
+            "name": "@Home"
+          },
+          {
+            "name": "@Dresses-Menu"
           }
         ]
       },
@@ -226,567 +794,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-04-28T17:26:22.448Z",
+        "start_timestamp": "2020-04-29T10:10:59.231Z",
         "before": [
           {
             "result": {
-              "duration": 9497000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "steps.BeforeActions.setUp()"
-            }
-          }
-        ],
-        "line": 18,
-        "name": "I validate Submenu of Women Menu functionality",
-        "description": "",
-        "id": "navigation-to-the-home-page;i-validate-submenu-of-women-menu-functionality",
-        "after": [
-          {
-            "result": {
-              "duration": 712000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "steps.EndActions.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 11562000000,
-              "status": "passed"
-            },
-            "line": 19,
-            "name": "I move to the Women Menu",
-            "match": {
-              "location": "steps.HomePageSteps.i_move_to_the_Women_Menu()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 147000000,
-              "status": "passed"
-            },
-            "line": 20,
-            "name": "I click on Tops Link",
-            "match": {
-              "location": "steps.HomePageSteps.i_click_on_Tops_Link()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 2444000000,
-              "status": "passed"
-            },
-            "line": 21,
-            "name": "I should see the title of the page \"Tops - My Store\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Tops - My Store\"",
-                  "offset": 35
-                }
-              ],
-              "location": "steps.HomePageSteps.i_should_see_the_title_of_the_page(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 4396000000,
-              "status": "passed"
-            },
-            "line": 22,
-            "name": "I move to the Women Menu",
-            "match": {
-              "location": "steps.HomePageSteps.i_move_to_the_Women_Menu()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 149000000,
-              "status": "passed"
-            },
-            "line": 23,
-            "name": "I click on Dresses Link",
-            "match": {
-              "location": "steps.HomePageSteps.i_click_on_Dresses_Link()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 2388000000,
-              "status": "passed"
-            },
-            "line": 24,
-            "name": "I should see the title of the page \"Dresses - My Store\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Dresses - My Store\"",
-                  "offset": 35
-                }
-              ],
-              "location": "steps.HomePageSteps.i_should_see_the_title_of_the_page(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1825000000,
-              "status": "passed"
-            },
-            "line": 25,
-            "name": "I move to the Women Menu",
-            "match": {
-              "location": "steps.HomePageSteps.i_move_to_the_Women_Menu()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 153000000,
-              "status": "passed"
-            },
-            "line": 26,
-            "name": "I click on TShirts Link",
-            "match": {
-              "location": "steps.HomePageSteps.i_click_on_TShirts_Link()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 1535000000,
-              "status": "passed"
-            },
-            "line": 27,
-            "name": "I should see the title of the page \"T-shirts - My Store\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"T-shirts - My Store\"",
-                  "offset": 35
-                }
-              ],
-              "location": "steps.HomePageSteps.i_should_see_the_title_of_the_page(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1288000000,
-              "status": "passed"
-            },
-            "line": 28,
-            "name": "I move to the Women Menu",
-            "match": {
-              "location": "steps.HomePageSteps.i_move_to_the_Women_Menu()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 126000000,
-              "status": "passed"
-            },
-            "line": 29,
-            "name": "I click on Blouses Link",
-            "match": {
-              "location": "steps.HomePageSteps.i_click_on_Blouses_Link()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 2418000000,
-              "status": "passed"
-            },
-            "line": 30,
-            "name": "I should see the title of the page \"Blouses - My Store\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Blouses - My Store\"",
-                  "offset": 35
-                }
-              ],
-              "location": "steps.HomePageSteps.i_should_see_the_title_of_the_page(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 931000000,
-              "status": "passed"
-            },
-            "line": 31,
-            "name": "I move to the Women Menu",
-            "match": {
-              "location": "steps.HomePageSteps.i_move_to_the_Women_Menu()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 334000000,
-              "status": "passed"
-            },
-            "line": 32,
-            "name": "I click on Casual Dresses Link",
-            "match": {
-              "location": "steps.HomePageSteps.i_click_on_Casual_Dresses_Link()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 1448000000,
-              "status": "passed"
-            },
-            "line": 33,
-            "name": "I should see the title of the page \"Casual Dresses - My Store\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Casual Dresses - My Store\"",
-                  "offset": 35
-                }
-              ],
-              "location": "steps.HomePageSteps.i_should_see_the_title_of_the_page(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1158000000,
-              "status": "passed"
-            },
-            "line": 34,
-            "name": "I move to the Women Menu",
-            "match": {
-              "location": "steps.HomePageSteps.i_move_to_the_Women_Menu()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 298000000,
-              "status": "passed"
-            },
-            "line": 35,
-            "name": "I click on Evening Dresses Link",
-            "match": {
-              "location": "steps.HomePageSteps.i_click_on_Evening_Dresses_Link()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 1885000000,
-              "status": "passed"
-            },
-            "line": 36,
-            "name": "I should see the title of the page \"Evening Dresses - My Store\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Evening Dresses - My Store\"",
-                  "offset": 35
-                }
-              ],
-              "location": "steps.HomePageSteps.i_should_see_the_title_of_the_page(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1373000000,
-              "status": "passed"
-            },
-            "line": 37,
-            "name": "I move to the Women Menu",
-            "match": {
-              "location": "steps.HomePageSteps.i_move_to_the_Women_Menu()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 306000000,
-              "status": "passed"
-            },
-            "line": 38,
-            "name": "I click on Summer Dresses Link",
-            "match": {
-              "location": "steps.HomePageSteps.i_click_on_Summer_Dresses_Link()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 1537000000,
-              "status": "passed"
-            },
-            "line": 39,
-            "name": "I should see the title of the page \"Summer Dresses - My Store\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Summer Dresses - My Store\"",
-                  "offset": 35
-                }
-              ],
-              "location": "steps.HomePageSteps.i_should_see_the_title_of_the_page(java.lang.String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@Smoke"
-          },
-          {
-            "name": "@Women-Menu"
-          }
-        ]
-      },
-      {
-        "line": 4,
-        "name": "Navigation to the Home Page",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 15000000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "I open the URL \"http://automationpractice.com/\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"http://automationpractice.com/\"",
-                  "offset": 15
-                }
-              ],
-              "location": "steps.HomePageSteps.i_open_the_URL(java.lang.String)"
-            },
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-04-28T17:27:10.441Z",
-        "before": [
-          {
-            "result": {
-              "duration": 9414000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "steps.BeforeActions.setUp()"
-            }
-          }
-        ],
-        "line": 42,
-        "name": "I validate Submenu of Dresses Menu functionality",
-        "description": "",
-        "id": "navigation-to-the-home-page;i-validate-submenu-of-dresses-menu-functionality",
-        "after": [
-          {
-            "result": {
-              "duration": 706000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "steps.EndActions.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 10832000000,
-              "status": "passed"
-            },
-            "line": 43,
-            "name": "I move to the Dresses Menu",
-            "match": {
-              "location": "steps.HomePageSteps.i_move_to_the_Dresses_Menu()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 119000000,
-              "status": "passed"
-            },
-            "line": 44,
-            "name": "I click on Casual Dresses submenu",
-            "match": {
-              "location": "steps.HomePageSteps.i_click_on_Casual_Dresses_submenu()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 1822000000,
-              "status": "passed"
-            },
-            "line": 45,
-            "name": "I should see the title of the page \"Casual Dresses - My Store\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Casual Dresses - My Store\"",
-                  "offset": 35
-                }
-              ],
-              "location": "steps.HomePageSteps.i_should_see_the_title_of_the_page(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1387000000,
-              "status": "passed"
-            },
-            "line": 46,
-            "name": "I move to the Dresses Menu",
-            "match": {
-              "location": "steps.HomePageSteps.i_move_to_the_Dresses_Menu()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 116000000,
-              "status": "passed"
-            },
-            "line": 47,
-            "name": "I click on Evening Dresses submenu",
-            "match": {
-              "location": "steps.HomePageSteps.i_click_on_Evening_Dresses_submenu()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 1340000000,
-              "status": "passed"
-            },
-            "line": 48,
-            "name": "I should see the title of the page \"Evening Dresses - My Store\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Evening Dresses - My Store\"",
-                  "offset": 35
-                }
-              ],
-              "location": "steps.HomePageSteps.i_should_see_the_title_of_the_page(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1108000000,
-              "status": "passed"
-            },
-            "line": 49,
-            "name": "I move to the Dresses Menu",
-            "match": {
-              "location": "steps.HomePageSteps.i_move_to_the_Dresses_Menu()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 178000000,
-              "status": "passed"
-            },
-            "line": 50,
-            "name": "I click on Summer Dresses submenu",
-            "match": {
-              "location": "steps.HomePageSteps.i_click_on_Summer_Dresses_submenu()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 2013000000,
-              "status": "passed"
-            },
-            "line": 51,
-            "name": "I should see the title of the page \"Summer Dresses - My Store\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Summer Dresses - My Store\"",
-                  "offset": 35
-                }
-              ],
-              "location": "steps.HomePageSteps.i_should_see_the_title_of_the_page(java.lang.String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@Smoke"
-          },
-          {
-            "name": "@Dresses-Menu"
-          }
-        ]
-      },
-      {
-        "line": 4,
-        "name": "Navigation to the Home Page",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 19000000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "I open the URL \"http://automationpractice.com/\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"http://automationpractice.com/\"",
-                  "offset": 15
-                }
-              ],
-              "location": "steps.HomePageSteps.i_open_the_URL(java.lang.String)"
-            },
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-04-28T17:27:39.532Z",
-        "before": [
-          {
-            "result": {
-              "duration": 9447000000,
+              "duration": 9712000000,
               "status": "passed"
             },
             "match": {
@@ -801,7 +813,7 @@
         "after": [
           {
             "result": {
-              "duration": 688000000,
+              "duration": 737000000,
               "status": "passed"
             },
             "match": {
@@ -814,7 +826,7 @@
         "steps": [
           {
             "result": {
-              "duration": 11465000000,
+              "duration": 5582000000,
               "status": "passed"
             },
             "line": 55,
@@ -826,7 +838,7 @@
           },
           {
             "result": {
-              "duration": 1573000000,
+              "duration": 1551000000,
               "status": "passed"
             },
             "line": 56,
@@ -848,6 +860,9 @@
             "name": "@Smoke"
           },
           {
+            "name": "@Home"
+          },
+          {
             "name": "@TShirts-Menu"
           }
         ]
@@ -865,6 +880,622 @@
         "location": {
           "line": 1,
           "column": 1
+        }
+      },
+      {
+        "name": "@Home",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 8
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Navigation to the Home Page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I open the URL \"http://automationpractice.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://automationpractice.com/\"",
+                  "offset": 15
+                }
+              ],
+              "location": "steps.HomePageSteps.i_open_the_URL(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6016000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on Sign In button",
+            "match": {
+              "location": "steps.HomePageSteps.i_click_on_Sign_In_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-04-29T10:11:16.877Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9694000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.BeforeActions.setUp()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Validate user should login with valid credentials",
+        "description": "",
+        "id": "check-login-and-register-functionality;validate-user-should-login-with-valid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 684000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.EndActions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3449000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I enter valid user name and password",
+            "match": {
+              "location": "steps.Sign_IN_Steps.i_enter_valid_user_name_and_password(java.util.List\u003cjava.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "qa07test1957@gmail.com"
+                ]
+              },
+              {
+                "cells": [
+                  "Qwerty@12"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 97000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click on Log In button",
+            "match": {
+              "location": "steps.Sign_IN_Steps.i_click_on_Login_In_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2078000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I should able to see sign out button",
+            "match": {
+              "location": "steps.Sign_IN_Steps.i_should_able_to_see_sign_out_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 112000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I click on Log Out button",
+            "match": {
+              "location": "steps.Sign_IN_Steps.i_click_on_Log_Out_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2154000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I should back to login page successfully",
+            "match": {
+              "location": "steps.Sign_IN_Steps.i_should_back_to_login_page_successfully()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login-Register"
+          },
+          {
+            "name": "@Smoke"
+          },
+          {
+            "name": "@Login-Positive"
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "Navigation to the Home Page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 9000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I open the URL \"http://automationpractice.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://automationpractice.com/\"",
+                  "offset": 15
+                }
+              ],
+              "location": "steps.HomePageSteps.i_open_the_URL(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5809000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on Sign In button",
+            "match": {
+              "location": "steps.HomePageSteps.i_click_on_Sign_In_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-04-29T10:11:41.221Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9806000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.BeforeActions.setUp()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Validate user forgot with registered email id",
+        "description": "",
+        "id": "check-login-and-register-functionality;validate-user-forgot-with-registered-email-id",
+        "after": [
+          {
+            "result": {
+              "duration": 750000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.EndActions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2650000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I click on forgot link",
+            "match": {
+              "location": "steps.Sign_IN_Steps.i_click_on_forgot_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4769000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I enter registered user name",
+            "match": {
+              "location": "steps.Sign_IN_Steps.i_enter_registered_user_name(java.util.List\u003cjava.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "qa07test1957@gmail.com"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 131000000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I click retrive password button",
+            "match": {
+              "location": "steps.Sign_IN_Steps.i_click_retrive_password_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1543000000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Message should be \"A confirmation email has been sent to your address: qa07test1957@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"A confirmation email has been sent to your address: qa07test1957@gmail.com\"",
+                  "offset": 18
+                }
+              ],
+              "location": "steps.Sign_IN_Steps.message_should_be(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login-Register"
+          },
+          {
+            "name": "@Smoke"
+          },
+          {
+            "name": "@Forgot-Positive"
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "Navigation to the Home Page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I open the URL \"http://automationpractice.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://automationpractice.com/\"",
+                  "offset": 15
+                }
+              ],
+              "location": "steps.HomePageSteps.i_open_the_URL(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5642000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on Sign In button",
+            "match": {
+              "location": "steps.HomePageSteps.i_click_on_Sign_In_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-04-29T10:12:06.704Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9520000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.BeforeActions.setUp()"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "Validate user should not login with invalid credentials",
+        "description": "",
+        "id": "check-login-and-register-functionality;validate-user-should-not-login-with-invalid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 695000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.EndActions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2957000000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I enter valid user name and password",
+            "match": {
+              "location": "steps.Sign_IN_Steps.i_enter_valid_user_name_and_password(java.util.List\u003cjava.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "qa09test1957@gmail.com"
+                ]
+              },
+              {
+                "cells": [
+                  "Qwerty@12"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 96000000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I click on Log In button",
+            "match": {
+              "location": "steps.Sign_IN_Steps.i_click_on_Login_In_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1046000000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Error message should appear \"Authentication failed.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Authentication failed.\"",
+                  "offset": 28
+                }
+              ],
+              "location": "steps.Sign_IN_Steps.Error_message_should_appear(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login-Register"
+          },
+          {
+            "name": "@Smoke"
+          },
+          {
+            "name": "@Login-Negative"
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "Navigation to the Home Page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 20000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I open the URL \"http://automationpractice.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://automationpractice.com/\"",
+                  "offset": 15
+                }
+              ],
+              "location": "steps.HomePageSteps.i_open_the_URL(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 16795000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on Sign In button",
+            "match": {
+              "location": "steps.HomePageSteps.i_click_on_Sign_In_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-04-29T10:12:26.687Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9563000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.BeforeActions.setUp()"
+            }
+          }
+        ],
+        "line": 37,
+        "name": "Validate user forgot with not registered email id",
+        "description": "",
+        "id": "check-login-and-register-functionality;validate-user-forgot-with-not-registered-email-id",
+        "after": [
+          {
+            "result": {
+              "duration": 693000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.EndActions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2803000000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "I click on forgot link",
+            "match": {
+              "location": "steps.Sign_IN_Steps.i_click_on_forgot_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1581000000,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "I enter registered user name",
+            "match": {
+              "location": "steps.Sign_IN_Steps.i_enter_registered_user_name(java.util.List\u003cjava.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "qa09test1957@gmail.com"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 167000000,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "I click retrive password button",
+            "match": {
+              "location": "steps.Sign_IN_Steps.i_click_retrive_password_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1131000000,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "Error message should appear \"There is no account registered for this email address.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"There is no account registered for this email address.\"",
+                  "offset": 28
+                }
+              ],
+              "location": "steps.Sign_IN_Steps.Error_message_should_appear(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login-Register"
+          },
+          {
+            "name": "@Smoke"
+          },
+          {
+            "name": "@Forgot-Negative"
+          }
+        ]
+      }
+    ],
+    "name": "Check Login and Register functionality",
+    "description": "  I want to login with email id and password\n  I want to register new user by entering fields",
+    "id": "check-login-and-register-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/Sign-In.feature",
+    "tags": [
+      {
+        "name": "@Login-Register",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@Smoke",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 17
         }
       }
     ]

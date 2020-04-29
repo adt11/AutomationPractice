@@ -1,4 +1,4 @@
-@Smoke
+@Smoke @Home
 Feature: Navigation to the Home Page
 
   Background: Navigation to the Home Page

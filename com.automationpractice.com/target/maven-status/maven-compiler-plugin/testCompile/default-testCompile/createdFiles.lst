@@ -1,6 +1,7 @@
-steps\EndActions.class
+steps\Sign_IN_Steps.class
 utilities\Utils.class
 steps\BeforeActions.class
+steps\EndActions.class
 runner\FailedRunner.class
 runner\TestRunner.class
 steps\HomePageSteps.class

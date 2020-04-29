@@ -6,6 +6,9 @@ formatter.feature({
   "tags": [
     {
       "name": "@Smoke"
+    },
+    {
+      "name": "@Home"
     }
   ]
 });
@@ -34,6 +37,9 @@ formatter.scenario({
   "tags": [
     {
       "name": "@Smoke"
+    },
+    {
+      "name": "@Home"
     },
     {
       "name": "@Contact-Us"
@@ -90,6 +96,9 @@ formatter.scenario({
       "name": "@Smoke"
     },
     {
+      "name": "@Home"
+    },
+    {
       "name": "@Login-MyStore"
     }
   ]
@@ -142,6 +151,9 @@ formatter.scenario({
   "tags": [
     {
       "name": "@Smoke"
+    },
+    {
+      "name": "@Home"
     },
     {
       "name": "@Women-Menu"
@@ -388,6 +400,9 @@ formatter.scenario({
       "name": "@Smoke"
     },
     {
+      "name": "@Home"
+    },
+    {
       "name": "@Dresses-Menu"
     }
   ]
@@ -512,6 +527,9 @@ formatter.scenario({
       "name": "@Smoke"
     },
     {
+      "name": "@Home"
+    },
+    {
       "name": "@TShirts-Menu"
     }
   ]
@@ -532,6 +550,382 @@ formatter.step({
 });
 formatter.match({
   "location": "steps.HomePageSteps.i_should_see_the_title_of_the_page(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.after({
+  "status": "passed"
+});
+formatter.uri("file:src/test/resources/Features/Sign-In.feature");
+formatter.feature({
+  "name": "Check Login and Register functionality",
+  "description": "  I want to login with email id and password\n  I want to register new user by entering fields",
+  "keyword": "Feature",
+  "tags": [
+    {
+      "name": "@Login-Register"
+    },
+    {
+      "name": "@Smoke"
+    }
+  ]
+});
+formatter.background({
+  "name": "Navigation to the Home Page",
+  "description": "",
+  "keyword": "Background"
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I open the URL \"http://automationpractice.com/\"",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "steps.HomePageSteps.i_open_the_URL(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I click on Sign In button",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "steps.HomePageSteps.i_click_on_Sign_In_button()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "Validate user should login with valid credentials",
+  "description": "",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@Login-Register"
+    },
+    {
+      "name": "@Smoke"
+    },
+    {
+      "name": "@Login-Positive"
+    }
+  ]
+});
+formatter.step({
+  "name": "I enter valid user name and password",
+  "rows": [
+    {},
+    {}
+  ],
+  "keyword": "When "
+});
+formatter.match({
+  "location": "steps.Sign_IN_Steps.i_enter_valid_user_name_and_password(java.util.List\u003cjava.lang.String\u003e)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I click on Log In button",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "steps.Sign_IN_Steps.i_click_on_Login_In_button()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I should able to see sign out button",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "steps.Sign_IN_Steps.i_should_able_to_see_sign_out_button()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I click on Log Out button",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "steps.Sign_IN_Steps.i_click_on_Log_Out_button()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I should back to login page successfully",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "steps.Sign_IN_Steps.i_should_back_to_login_page_successfully()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.after({
+  "status": "passed"
+});
+formatter.background({
+  "name": "Navigation to the Home Page",
+  "description": "",
+  "keyword": "Background"
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I open the URL \"http://automationpractice.com/\"",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "steps.HomePageSteps.i_open_the_URL(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I click on Sign In button",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "steps.HomePageSteps.i_click_on_Sign_In_button()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "Validate user forgot with registered email id",
+  "description": "",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@Login-Register"
+    },
+    {
+      "name": "@Smoke"
+    },
+    {
+      "name": "@Forgot-Positive"
+    }
+  ]
+});
+formatter.step({
+  "name": "I click on forgot link",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "steps.Sign_IN_Steps.i_click_on_forgot_link()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I enter registered user name",
+  "rows": [
+    {}
+  ],
+  "keyword": "And "
+});
+formatter.match({
+  "location": "steps.Sign_IN_Steps.i_enter_registered_user_name(java.util.List\u003cjava.lang.String\u003e)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I click retrive password button",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "steps.Sign_IN_Steps.i_click_retrive_password_button()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Message should be \"A confirmation email has been sent to your address: qa07test1957@gmail.com\"",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "steps.Sign_IN_Steps.message_should_be(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.after({
+  "status": "passed"
+});
+formatter.background({
+  "name": "Navigation to the Home Page",
+  "description": "",
+  "keyword": "Background"
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I open the URL \"http://automationpractice.com/\"",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "steps.HomePageSteps.i_open_the_URL(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I click on Sign In button",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "steps.HomePageSteps.i_click_on_Sign_In_button()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "Validate user should not login with invalid credentials",
+  "description": "",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@Login-Register"
+    },
+    {
+      "name": "@Smoke"
+    },
+    {
+      "name": "@Login-Negative"
+    }
+  ]
+});
+formatter.step({
+  "name": "I enter valid user name and password",
+  "rows": [
+    {},
+    {}
+  ],
+  "keyword": "When "
+});
+formatter.match({
+  "location": "steps.Sign_IN_Steps.i_enter_valid_user_name_and_password(java.util.List\u003cjava.lang.String\u003e)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I click on Log In button",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "steps.Sign_IN_Steps.i_click_on_Login_In_button()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Error message should appear \"Authentication failed.\"",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "steps.Sign_IN_Steps.Error_message_should_appear(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.after({
+  "status": "passed"
+});
+formatter.background({
+  "name": "Navigation to the Home Page",
+  "description": "",
+  "keyword": "Background"
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I open the URL \"http://automationpractice.com/\"",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "steps.HomePageSteps.i_open_the_URL(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I click on Sign In button",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "steps.HomePageSteps.i_click_on_Sign_In_button()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "Validate user forgot with not registered email id",
+  "description": "",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@Login-Register"
+    },
+    {
+      "name": "@Smoke"
+    },
+    {
+      "name": "@Forgot-Negative"
+    }
+  ]
+});
+formatter.step({
+  "name": "I click on forgot link",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "steps.Sign_IN_Steps.i_click_on_forgot_link()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I enter registered user name",
+  "rows": [
+    {}
+  ],
+  "keyword": "And "
+});
+formatter.match({
+  "location": "steps.Sign_IN_Steps.i_enter_registered_user_name(java.util.List\u003cjava.lang.String\u003e)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I click retrive password button",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "steps.Sign_IN_Steps.i_click_retrive_password_button()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Error message should appear \"There is no account registered for this email address.\"",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "steps.Sign_IN_Steps.Error_message_should_appear(java.lang.String)"
 });
 formatter.result({
   "status": "passed"

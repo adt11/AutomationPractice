@@ -1,3 +1,5 @@
+pages\Actions\Sign_IN_Actions.class
 pages\Actions\HomePageActions.class
 utils\SeleniumDriver.class
+pages\Locators\Sign_IN_Locators.class
 pages\Locators\HomePageLocators.class
